@@ -60,3 +60,14 @@ a.footer:visited {
 a.footer:hover {
   text-decoration: underline;
 }
+@media only screen and (max-width: 500px) {
+  img,
+  div.text {
+    width: 90%;
+    height: 46.7vw;
+  }
+  h4,
+  li {
+    font-size: 5vw;
+  }
+}
