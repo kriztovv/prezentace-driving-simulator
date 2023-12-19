@@ -66,8 +66,16 @@ a.footer:hover {
     width: 90%;
     height: 46.7vw;
   }
+  i.material-icons {
+    font-size: 30px;
+  }
   h4,
   li {
     font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    flex-direction: column;
   }
 }
